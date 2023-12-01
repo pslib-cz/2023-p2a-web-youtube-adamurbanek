@@ -2,29 +2,47 @@
 
 .main {
    gap: 1em;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: space-around;
 }
 
 .ytv {
-    
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 1em;
 }
 .ytv__bottom {
-    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 1em;
 }
 .ytv__left {
-    
+   display: flex;
+   gap: 1em;
 }
 .ytv__right {
-    
+   display: flex;
+   gap: 1em;
+   justify-content: space-between;
 }
 .profile {
-    
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.5em;
 }
 .profile__text {
-    
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 .icon {
-
+   display: flex;
 }
 .btn--flex {
-    
+   display: flex;
 }
