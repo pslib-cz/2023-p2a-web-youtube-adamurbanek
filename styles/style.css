@@ -18,7 +18,6 @@
 .ytv__bottom {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
    gap: 1em;
 }
 .ytv__left {
@@ -29,6 +28,7 @@
    display: flex;
    gap: 1em;
    justify-content: space-between;
+   margin-left: auto;
 }
 .profile {
    display: flex;
